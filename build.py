@@ -58,10 +58,13 @@ def topbar(prefix):
 def cta_block():
     return (f'<div class="cta"><h3>需要大型供品或廟會出陣？歡迎洽詢</h3>'
             f'<p>祝壽塔 · 香塔 · 精品紙紮 · 罐頭塔 · 廟會出陣，皆可客製，量大優惠。</p>'
-            f'<p class="big">📞 {TEL1}（徐小姐）／ {TEL2}（徐先生）</p>'
+            f'<div class="phones">'
+            f'<a class="ph" href="tel:{TEL1.replace("-","")}">📞 {TEL1}<span class="who">徐小姐</span></a>'
+            f'<a class="ph" href="tel:{TEL2.replace("-","")}">📞 {TEL2}<span class="who">徐先生</span></a>'
+            f'</div>'
             f'<p>LINE：<a href="{LINE_URL}" target="_blank" rel="noopener">點此加入好友</a>'
             f'　|　官網：<a href="{WEB}" target="_blank" rel="noopener">zun-fu.com</a></p>'
-            f'<p style="font-size:14px;color:#FBE0C0">{ADDR}　·　服務範圍：嘉義、台南、雲林、彰化、高雄、屏東（全省配合）</p></div>')
+            f'<p style="font-size:15px;color:#FBE0C0;line-height:1.7">{ADDR}<br>服務範圍：嘉義、台南、雲林、彰化、高雄、屏東（全省配合）</p></div>')
 
 
 def footer():

@@ -60,7 +60,11 @@ blockquote p{margin:0}
 .cta{background:linear-gradient(135deg,var(--red),var(--red-dark));color:#fff;border-radius:10px;padding:30px 34px;margin:44px 0 8px;text-align:center}
 .cta h3{color:#fff;font-size:27px;font-weight:800;margin-bottom:12px;font-family:'Noto Serif TC',serif}
 .cta p{color:#FBEAD0;margin-bottom:9px;font-size:19.5px}
-.cta .big{font-size:29px;font-weight:900;color:#FFE9B0;letter-spacing:.03em}
+.phones{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 20px;margin:18px 0}
+.phones .ph{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;background:rgba(255,255,255,.12);border:1px solid rgba(255,233,176,.5);border-radius:10px;padding:12px 22px;font-size:28px;font-weight:900;color:#FFE9B0;letter-spacing:.02em;text-decoration:none}
+.phones .ph:hover{background:rgba(255,255,255,.2)}
+.phones .ph .who{font-size:17px;font-weight:600;color:#FBE0C0}
+@media(max-width:600px){.phones .ph{font-size:24px;padding:11px 18px;width:100%;justify-content:center}}
 .cta a{color:#FFE9B0;font-weight:700}
 
 /* 免責 / 說明 */
