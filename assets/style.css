@@ -6,7 +6,7 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--body);font-family:'Noto Serif TC',"Songti TC",serif;line-height:1.9;font-size:17.5px;-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--body);font-family:'Noto Serif TC',"Songti TC",serif;line-height:2.0;font-size:20px;-webkit-font-smoothing:antialiased}
 a{color:var(--red)}
 a:hover{color:var(--red-dark)}
 .wrap{max-width:740px;margin:0 auto;padding:0 22px}
@@ -15,22 +15,22 @@ a:hover{color:var(--red-dark)}
 .topbar{background:var(--card);border-bottom:2px solid var(--gold);position:sticky;top:0;z-index:20}
 .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
 .logo{font-weight:900;font-size:21px;color:var(--red);letter-spacing:.06em;text-decoration:none;font-family:'Noto Serif TC',serif}
-.topnav a{color:var(--body);font-size:14.5px;font-weight:600;margin-left:17px;text-decoration:none}
+.topnav a{color:var(--body);font-size:16px;font-weight:600;margin-left:17px;text-decoration:none}
 .topnav a:hover{color:var(--red)}
-@media(max-width:600px){.topnav a{margin-left:11px;font-size:13px}.logo{font-size:18px}}
+@media(max-width:600px){.topnav a{margin-left:10px;font-size:14px}.logo{font-size:18px}}
 
 /* 文章 */
 article{background:var(--card);margin:28px auto;padding:48px 0;border-radius:10px;border-top:4px solid var(--red)}
 article .wrap{padding:0 42px}
 @media(max-width:600px){article .wrap{padding:0 22px}article{padding:32px 0}}
-.crumb{font-size:13.5px;color:var(--muted);margin-bottom:16px}
+.crumb{font-size:15px;color:var(--muted);margin-bottom:16px}
 .crumb a{color:var(--muted);text-decoration:none}
-.pill{display:inline-block;background:var(--gold-soft);color:var(--gold);font-size:12.5px;font-weight:700;padding:5px 14px;border-radius:4px;margin-bottom:16px;letter-spacing:.04em}
-h1{font-size:30px;font-weight:900;color:var(--ink);line-height:1.5;margin-bottom:14px;font-family:'Noto Serif TC',serif}
-.byline{font-size:13.5px;color:var(--muted);margin-bottom:30px;padding-bottom:22px;border-bottom:1px solid var(--line)}
-article h2{font-size:23px;font-weight:800;color:var(--red);margin:44px 0 14px;line-height:1.5;padding-left:14px;border-left:4px solid var(--gold)}
-article h3{font-size:19px;font-weight:700;color:var(--ink);margin:30px 0 10px}
-article p{margin:0 0 18px;color:var(--body)}
+.pill{display:inline-block;background:var(--gold-soft);color:var(--gold);font-size:14px;font-weight:700;padding:6px 15px;border-radius:4px;margin-bottom:16px;letter-spacing:.04em}
+h1{font-size:34px;font-weight:900;color:var(--ink);line-height:1.5;margin-bottom:14px;font-family:'Noto Serif TC',serif}
+.byline{font-size:15px;color:var(--muted);margin-bottom:30px;padding-bottom:22px;border-bottom:1px solid var(--line)}
+article h2{font-size:27px;font-weight:800;color:var(--red);margin:46px 0 16px;line-height:1.5;padding-left:14px;border-left:5px solid var(--gold)}
+article h3{font-size:22px;font-weight:700;color:var(--ink);margin:32px 0 10px}
+article p{margin:0 0 20px;color:var(--body)}
 article strong{color:var(--red-dark);font-weight:700}
 article ul,article ol{margin:0 0 20px;padding-left:24px}
 article li{margin:8px 0}
@@ -41,7 +41,7 @@ article a{text-decoration:underline;text-decoration-color:rgba(168,35,28,.3)}
 
 /* 表格 */
 .table-scroll{overflow-x:auto;margin:26px 0}
-table{width:100%;border-collapse:collapse;font-size:15.5px;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:17px;background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden}
 th,td{text-align:left;padding:12px 15px;border-bottom:1px solid var(--line);vertical-align:top}
 th{background:var(--red);color:#fff;font-weight:700;white-space:nowrap}
 tr:nth-child(even) td{background:#FCF8F1}
@@ -53,37 +53,37 @@ blockquote p{margin:0}
 
 /* 商品卡 */
 .prod{background:var(--gold-soft);border:1px solid #E8DCC0;border-radius:8px;padding:18px 22px;margin:20px 0}
-.prod h3{margin:0 0 6px;color:var(--red-dark)}
-.prod p{margin:0;font-size:15.5px}
+.prod h3{margin:0 0 8px;color:var(--red-dark)}
+.prod p{margin:0;font-size:17.5px}
 
 /* CTA 洽詢 */
 .cta{background:linear-gradient(135deg,var(--red),var(--red-dark));color:#fff;border-radius:10px;padding:30px 34px;margin:44px 0 8px;text-align:center}
-.cta h3{color:#fff;font-size:21px;font-weight:800;margin-bottom:10px;font-family:'Noto Serif TC',serif}
-.cta p{color:#FBEAD0;margin-bottom:6px;font-size:16px}
-.cta .big{font-size:22px;font-weight:900;color:#FFE9B0;letter-spacing:.03em}
+.cta h3{color:#fff;font-size:24px;font-weight:800;margin-bottom:10px;font-family:'Noto Serif TC',serif}
+.cta p{color:#FBEAD0;margin-bottom:8px;font-size:18px}
+.cta .big{font-size:26px;font-weight:900;color:#FFE9B0;letter-spacing:.03em}
 .cta a{color:#FFE9B0;font-weight:700}
 
 /* 免責 / 說明 */
-.note{font-size:13.5px;color:var(--muted);background:var(--note-bg);border:1px solid #EFE3C6;border-radius:8px;padding:14px 18px;margin:28px 0 0;line-height:1.75}
+.note{font-size:15px;color:var(--muted);background:var(--note-bg);border:1px solid #EFE3C6;border-radius:8px;padding:16px 20px;margin:28px 0 0;line-height:1.85}
 
 /* 首頁 / 索引 */
 .hero{background:linear-gradient(135deg,#FBF0DD,#F7E6E2);border-bottom:2px solid var(--gold);padding:58px 0 50px;text-align:center}
-.hero h1{font-size:34px;border:none;color:var(--red)}
-.hero .sub{font-size:16px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-top:6px}
-.hero p{font-size:16.5px;color:var(--body);max-width:560px;margin:16px auto 0;line-height:1.85}
-.section-title{font-size:21px;font-weight:800;color:var(--red);margin:46px 0 6px;display:flex;align-items:center;gap:9px}
-.section-title .bar{width:5px;height:21px;background:var(--gold);border-radius:2px;display:inline-block}
-.section-sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+.hero h1{font-size:38px;border:none;color:var(--red)}
+.hero .sub{font-size:17.5px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-top:6px}
+.hero p{font-size:18.5px;color:var(--body);max-width:580px;margin:16px auto 0;line-height:1.9}
+.section-title{font-size:24px;font-weight:800;color:var(--red);margin:46px 0 6px;display:flex;align-items:center;gap:9px}
+.section-title .bar{width:5px;height:24px;background:var(--gold);border-radius:2px;display:inline-block}
+.section-sub{color:var(--muted);font-size:15.5px;margin-bottom:18px}
 .cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:600px){.cards{grid-template-columns:1fr}}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px;transition:.15s;display:block;text-decoration:none}
 .card:hover{border-color:var(--red);box-shadow:0 6px 20px rgba(168,35,28,.08);transform:translateY(-2px)}
-.card .ct{font-size:11.5px;font-weight:700;color:var(--gold);letter-spacing:.05em}
-.card .ch{font-size:17px;font-weight:800;color:var(--ink);margin:7px 0 0;line-height:1.55;font-family:'Noto Serif TC',serif}
-.card .cd{font-size:13.5px;color:var(--muted);margin-top:9px;line-height:1.7}
+.card .ct{font-size:13px;font-weight:700;color:var(--gold);letter-spacing:.05em}
+.card .ch{font-size:19.5px;font-weight:800;color:var(--ink);margin:8px 0 0;line-height:1.55;font-family:'Noto Serif TC',serif}
+.card .cd{font-size:15.5px;color:var(--muted);margin-top:9px;line-height:1.75}
 
 /* 頁尾 */
-footer{border-top:2px solid var(--gold);margin-top:48px;padding:34px 0;color:var(--muted);font-size:13.5px;background:var(--card)}
+footer{border-top:2px solid var(--gold);margin-top:48px;padding:34px 0;color:var(--muted);font-size:15.5px;background:var(--card)}
 footer .wrap{line-height:1.9}
 footer a{color:var(--red);text-decoration:none}
 footer strong{color:var(--ink)}
